@@ -1,0 +1,139 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #2a2a2a;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 48px;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 28px;
+  margin: 50px 0;
+}
+
+/* Header */
+
+header {
+  background-image: url('./img/coding.jpeg');
+  background-size: cover;
+  height: 90vh;
+  padding: 260px 0 0 30px;
+}
+
+.header-heading {
+  background-color: #2dc5fa;
+  width: 700px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+/* Section cards */
+
+main {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.modules {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  padding: 30px;
+  background-color: #2dc5fa;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.card p,
+.card h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#code-img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+a.link {
+  display: block;
+  margin: 30px 0;
+  font-size: 20px;
+  text-align: right;
+  color: #2dc5fa;
+}
+
+/* Form */
+
+.form-section {
+  width: 90%;
+  display: block;
+  margin: 50px auto;
+}
+
+form {
+  width: 100%;
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+button[type="submit"] {
+  background-color: #2dc5fa;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #0a7196;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  background-color: #2dc5fa;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
